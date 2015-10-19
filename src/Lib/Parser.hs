@@ -6,11 +6,8 @@ module Lib.Parser
     ) where
 
 import Text.Parsec
+import Lib.Types
 
-data AST = Cons AST AST
-         | Nil
-         | Atom String
-         deriving (Show, Eq)
 
 parseAST :: String -> Either ParseError AST
 parseAST = parse ast ""

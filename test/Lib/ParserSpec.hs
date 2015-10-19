@@ -1,4 +1,5 @@
 module Lib.ParserSpec where
+
 import Test.Hspec
 import Lib.Parser
 
