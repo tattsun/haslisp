@@ -2,6 +2,7 @@ module Lib.ParserSpec where
 
 import Test.Hspec
 import Lib.Parser
+import Lib.Types
 
 spec =
     describe "Lib.Parser" $ do

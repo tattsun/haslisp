@@ -17,6 +17,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
                      , Lib.Parser
+                     , Lib.Types
   build-depends:       base >= 4.7 && < 5
                      , mtl >= 2.1.3.1
                      , parsec
